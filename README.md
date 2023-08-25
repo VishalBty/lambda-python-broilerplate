@@ -6,9 +6,9 @@ This repository is a Bitbucket + Lambda boilerplate for auto-deployment of Pytho
 
 To deploy the function, you need to add your AWS keys to the Bitbucket repository variables:
 <pre>
-  <code>AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID</code>
-  <code>AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY</code>
-  <code>AWS_DEFAULT_REGION: $AWS_REGION</code>
-  <code>FUNCTION_NAME: $FUNCTION_NAME</code>
+  <code>AWS_ACCESS_KEY_ID: "KEY FROM FROM AWS"</code>
+  <code>AWS_SECRET_ACCESS_KEY: "SECRET KEY FROM FROM AWS"</code>
+  <code>AWS_DEFAULT_REGION: "AWS REGION eg. us-east-1"</code>
+  <code>FUNCTION_NAME: "LAMBDA FUNCTION NAME"</code>
 </pre>
 Once you have added the keys, the function will be automatically deployed to AWS Lambda on every push to the Bitbucket repository.
